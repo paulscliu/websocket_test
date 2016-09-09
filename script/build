@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Usage: script/build
+#
+# Builds example
+
+set -e
+
+go get ./...
+go build -o ./bin/thunderbird-chat
