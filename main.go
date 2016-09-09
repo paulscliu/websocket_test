@@ -48,7 +48,7 @@ func main() {
 	n := negroni.New(
 		negroni.NewRecovery(),
 		negroni.NewLogger(),
-		negroni.NewStatic(http.Dir("../client/lib")), // serve thunderbird.js
+		negroni.NewStatic(http.Dir("../thunderbird/client/lib")), // serve thunderbird.js
 		negroni.NewStatic(http.Dir("public")),        // serve other assets
 	)
 	n.UseHandler(router)
