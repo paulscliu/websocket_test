@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/codegangsta/negroni"
-	"github.com/gophergala2016/thunderbird"
+	"github.com/paulscliu/thunderbird"
 	"github.com/gorilla/mux"
 )
 
